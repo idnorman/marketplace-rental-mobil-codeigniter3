@@ -1,0 +1,435 @@
+/* ==== Medium Layout: 1280px ==== */
+
+@media only screen and (min-width: 992px) {
+	.slicknav_menu {
+		display: none;
+	}
+	.slider-right-text {
+		font-size: 16px;
+		text-align: right;
+		margin-top: 0px;
+	}
+	.slider-right-text h1 {
+		font-size: 45px;
+	}
+	.about-btn a {
+		padding: 6px 30px;
+	}
+	.about-video {
+		margin-top: 0;
+	}
+	.service-content .col-lg-6:nth-child(5) .single-service,
+	.service-content .col-lg-6:last-child .single-service {
+		margin-bottom: 0;
+	}
+	.single-funfact {
+		margin-bottom: 0;
+	}
+	.choose-content-wrap ul.nav-tabs .nav-item {
+		margin-bottom: 0 !important;
+	}
+	.single-pricing-table,
+	.single-footer-widget {
+		margin-bottom: 0;
+	}
+	#mobile-app-area::after {
+		display: inline-block;
+	}
+	.mobile-app-content h2 {
+		font-size: 70px;
+	}
+	.app-btns a {
+		font-size: 16px;
+		margin-right: 40px;
+		padding: 10px 20px;
+	}
+	.single-article .article-thumb {
+		margin-right: 0;
+	}
+	.single-article.middle .article-thumb {
+		margin-left: 0;
+	}
+	.article-body {
+		padding: 0 25px;
+	}
+	.article-date {
+		left: -58px;
+		top: 50%;
+		-webkit-transform: translateX(0);
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+	}
+	.single-article.middle .article-date {
+		left: auto;
+		right: -58px;
+		z-index: 1;
+	}
+	.single-testimonial {
+		margin-left: 100px;
+		padding: 50px 30px 50px 70px;
+	}
+	.single-testimonial p {
+		font-size: 13px;
+		margin-bottom: 0;
+	}
+	.single-testimonial p,
+	.single-testimonial h3 {
+		text-align: left;
+	}
+	.client-logo {
+		bottom: auto;
+		left: -70px;
+		margin-left: 0;
+		top: 50%;
+	}
+
+
+	/* === HOME PAGE TWO RESPONSIVE CSS === */
+	.slideshowcontent h1 {
+		font-size: 70px;
+	}
+	.slideshowcontent {
+		font-size: 17px;
+	}
+	.service-image,
+	.home2-car-filter {
+		margin-bottom: 50px;
+	}
+	.about-image {
+		margin-top: 0;
+	}
+	.about-feature-item {
+		margin-bottom: 0;
+	}
+
+
+	/* === HOME PAGE THREE RESPONSIVE CSS === */
+	#book-a-car {
+		padding-top: 0;
+	}
+	.booka-car-content {
+		margin-top: -120px;
+	}
+	.ourcar-pic {
+		margin: 0;
+	}
+
+	/* === CAR and ABOUT PAGE RESPONSIVE CSS === */
+	.car-list-info {
+		margin-left: -15px;
+	}
+	.car-list-content .col-lg-6:nth-child(3) .single-car-wrap {
+		margin-bottom: 0;
+	}
+	.single-service-item:nth-child(2n+1) .service-item-content {
+		padding-right: 0;
+	}
+	.single-service-item:nth-child(2n+2) .service-item-content {
+		padding-left: 0;
+	}
+	.pricing-details-content .col-lg-6:nth-child(3) .single-pricing-table,
+	.single-our-facility {
+		margin-bottom: 0;
+	}
+}
+
+
+/* ==== Wide Tablet Layout: 767px ==== */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.slicknav_menu {
+		display: block;
+	}
+	.slider-right-text {
+		font-size: 16px;
+		text-align: center;
+		margin-top: 50px;
+	}
+	.slider-right-text h1,
+	.slideshowcontent h1 {
+		font-size: 45px;
+	}
+	.about-btn a {
+		padding: 6px 30px;
+	}
+	.about-video {
+		margin-top: 50px;
+	}
+	.single-funfact {
+		margin-bottom: 50px;
+	}
+	.funfact-content-wrap .col-lg-4:last-child .single-funfact {
+		margin-bottom: 0;
+	}
+	.choose-content-wrap ul.nav-tabs .nav-item {
+		margin-bottom: 0 !important;
+	}
+	.single-pricing-table,
+	.single-footer-widget {
+		margin-bottom: 50px;
+	}
+	#footer-area .col-lg-4:last-child .single-footer-widget,
+	#pricing-area .col-lg-4:last-child .single-pricing-table {
+		margin-bottom: 0;
+	}
+	#mobile-app-area::after {
+		display: none;
+	}
+	.mobile-app-content h2 {
+		font-size: 40px;
+	}
+	.app-btns a {
+		font-size: 16px;
+		margin-right: 40px;
+		padding: 10px 20px;
+	}
+	.app-btns a i {
+		font-size: 20px;
+	}
+	.article-body {
+		padding: 50px 15px 25px 15px;
+	}
+	.article-date,
+	.single-article.middle .article-date {
+		left: 50%;
+		top: 9px;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.single-testimonial {
+		margin-left: 100px;
+		padding: 50px 30px 50px 70px;
+	}
+	.single-testimonial p {
+		font-size: 13px;
+		margin-bottom: 0;
+	}
+	.single-testimonial p,
+	.single-testimonial h3 {
+		text-align: left;
+	}
+	.client-logo {
+		bottom: auto;
+		left: -70px;
+		margin-left: 0;
+		top: 50%;
+	}
+
+	/* === HOME PAGE TWO RESPONSIVE CSS === */
+	.slideshowcontent {
+		font-size: 16px;
+	}
+	.bookinput-item {
+		margin-bottom: 15px;
+		width: 49.5%;
+	}
+	.bookinput-item:nth-child(2) {
+		margin-right: 0
+	}
+	.bookinput-item:nth-child(4) {
+		margin-right: 0
+	}
+	.bookinput-item:last-child {
+		margin-bottom: 0
+	}
+	.team-tab-menu {
+		margin-bottom: 30px;
+	}
+	.service-image {
+		margin: 50px 0;
+	}
+	.service-content .col-lg-6:nth-child(5) .single-service {
+		margin-bottom: 0;
+	}
+	.home2-car-filter {
+		margin-bottom: 50px;
+	}
+	.about-image {
+		margin-top: 50px;
+	}
+	.about-feature-item {
+		margin-bottom: 30px;
+	}
+	.ourcar-pic {
+		margin: 50px 0;
+	}
+
+	/* === CAR PAGE RESPONSIVE CSS === */
+	.car-list-info {
+		padding: 20px;
+	}
+	.m-t-50 {
+		margin-top: 50px;
+	}
+	.car-list-content .col-lg-6:nth-child(3) .single-car-wrap {
+		margin-bottom: 0;
+	}
+
+	/* === SERVICE and ABOUT PAGE RESPONSIVE CSS === */
+	.service-item-content,
+	.service-item-thumb {
+		float: none;
+		width: 100%;
+	}
+	.service-item-content {
+		padding: 50px 0;
+	}
+	#our-facility .col-lg-3:nth-child(3) .single-our-facility,
+	#our-facility .col-lg-3:last-child .single-our-facility {
+		margin-bottom: 0;
+	}
+	.single-our-facility {
+		margin-bottom: 50px;
+	}
+	.pricing-details-content .col-lg-6:nth-child(3) .single-pricing-table {
+		margin-bottom: 0;
+	}
+
+}
+
+/* ==== Mobile Layout: 320px ==== */
+
+@media only screen and (max-width: 767px) {
+	.slider-right-text {
+		font-size: 14px;
+		text-align: center;
+		margin-top: 50px;
+	}
+	.slider-right-text h1,
+	.slideshowcontent h1 {
+		font-size: 30px;
+	}
+	.about-btn a {
+		padding: 5px 25px;
+	}
+	.about-video {
+		margin-top: 50px;
+	}
+	.single-funfact {
+		margin-bottom: 50px;
+	}
+	.funfact-content-wrap .col-lg-4:last-child .single-funfact {
+		margin-bottom: 0;
+	}
+	.choose-content-wrap ul.nav-tabs li.nav-item {
+		margin-bottom: 10px !important;
+	}
+	.single-pricing-table,
+	.single-footer-widget {
+		margin-bottom: 50px;
+	}
+	#footer-area .col-lg-4:last-child .single-footer-widget,
+	#pricing-area .col-lg-4:last-child .single-pricing-table {
+		margin-bottom: 0;
+	}
+	#mobile-app-area::after {
+		display: none;
+	}
+	.mobile-app-content h2 {
+		font-size: 26px;
+	}
+	.app-btns a {
+		font-size: 13px;
+		margin-right: 10px;
+		padding: 8px 15px;
+	}
+	.app-btns a i {
+		font-size: 13px;
+	}
+	.article-body {
+		padding: 50px 15px 25px 15px;
+	}
+	.article-date,
+	.single-article.middle .article-date {
+		left: 50%;
+		top: 9px;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.single-testimonial::after {
+		display: none;
+	}
+	.single-testimonial {
+		margin-left: 0;
+		padding: 15px;
+	}
+	.single-testimonial p {
+		font-size: 12px;
+		margin-bottom: 150px;
+	}
+	.single-testimonial p,
+	.single-testimonial h3 {
+		text-align: center;
+	}
+	.client-logo {
+		bottom: 3px;
+		left: 50%;
+		margin-left: -52.5px;
+		top: auto;
+	}
+	.team-member-pro-pic {
+		margin: 10px 0;
+	}
+
+
+	/* === HOME PAGE TWO RESPONSIVE CSS === */
+	.slideshowcontent {
+		font-size: 13px;
+	}
+	.bookinput-item {
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	.service-image {
+		margin: 50px 0;
+	}
+	.home2-car-filter {
+		margin-bottom: 50px;
+	}
+	.about-image {
+		margin-top: 50px;
+	}
+	.about-feature-item {
+		margin-bottom: 30px;
+	}
+
+
+	/* === HOME PAGE THREE RESPONSIVE CSS === */
+	.single-we-do {
+		margin-bottom: 30px;
+	}
+	.ourcar-pic {
+		margin: 50px 0;
+	}
+	/* === CAR PAGE RESPONSIVE CSS === */
+	.car-list-info {
+		padding: 20px;
+	}
+	.m-t-50 {
+		margin-top: 50px;
+	}
+	.name-input {
+		margin-bottom: 30px;
+	}
+	.car-details-content h2 {
+		font-size: 20px;
+	}
+	/* === SERVICE and ABOUT PAGE RESPONSIVE CSS === */
+	.service-item-content,
+	.service-item-thumb {
+		float: none;
+		width: 100%;
+	}
+	.service-item-content {
+		padding: 30px 0;
+	}
+	#our-facility .col-lg-3:last-child .single-our-facility {
+		margin-bottom: 0;
+	}
+	.single-our-facility {
+		margin-bottom: 50px;
+	}
+
+}
